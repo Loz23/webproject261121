@@ -1,0 +1,171 @@
+
+
+body {
+    background-image: url(./images/zen.jpg);
+   
+    background-size:cover;
+    background-blend-mode:exclusion;
+    }
+
+
+
+.fade {
+    background-color: rgba(165, 112, 92, 0.705);
+
+
+}
+
+a {
+
+    color: rgb(206, 231, 241);
+}
+
+#title {
+    color: #04020fd2;
+    font-family: 'Lobster';
+    font-size: 90px;
+    padding: 10px;
+    text-align: center;
+}
+
+.intro {
+
+
+    font-size: 45px;
+    font-family: cursive ;
+    text-align: center;
+}
+
+
+.services { 
+font-size: 30px;
+text-align: center;
+
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+
+.box {
+    font-size:  30px;
+    color:rgb(7, 6, 6);
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+
+
+.box1 { background-color: rgba(134, 42, 42, 0.664);}
+.box2{background-color:  rgba(134, 42, 42, 0.589);}
+.box3{background-color:  rgba(134, 42, 42, 0.589);}
+
+
+
+.flex_container {
+    display: flex;
+    flex-direction:row;
+    border: 40px;
+    border-color: rgb(7, 3, 3);
+    justify-content: space-evenly;
+    
+}
+
+#container1 {
+    color: rgb(2, 1, 19);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(170, 94, 81)
+}
+
+#container2 {
+    color: rgb(2, 1, 19);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(170, 94, 81)
+}
+
+#container3 {
+    color: rgb(2, 1, 19);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(170, 94, 81)
+}
+
+#container4 {
+    color: rgb(41, 34, 180);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(170, 94, 81);
+}
+
+.flex_contactbox {
+    display: flex;
+    flex-direction:row;
+    border: 40px;
+    border-color: rgb(12, 7, 7);
+    justify-content: space-evenly;
+    color: rgba(192, 11, 11, 0.986);
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight:600;
+}
+
+
+
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:rgb(206, 113, 113);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color:rgba(236, 231, 230, 0.548);
+  border:2px solid #130f0f;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
